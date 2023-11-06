@@ -1,0 +1,4 @@
+CREATE TABLE IF NOT EXISTS jogador (
+  id INTERGER PRIMARY KEY,
+  nome TEXT
+  );
