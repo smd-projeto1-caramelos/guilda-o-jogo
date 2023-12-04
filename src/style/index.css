@@ -1,0 +1,149 @@
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Bodoni Bd BT';
+  src: url('src/fonts/BodoniBT-Bold.woff2') format('woff2'),
+      url('ssrc/fonts/BodoniBT-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Book Antiqua';
+  src: url('src/fonts/BookAntiqua.woff2') format('woff2'),
+      url('src/fonts/BookAntiqua.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Humnst777 BT';
+  src: url('src/fonts/Humanist777BT-BoldB.woff2') format('woff2'),
+      url('src/fonts/Humanist777BT-BoldB.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+html {
+  width: 390px;
+  height: 844px;
+  display: table;
+  margin: auto;
+}
+
+body {
+  position: relative;
+  display: table-cell;
+  vertical-align: middle;
+  background-color: black;
+  height: 100%;
+  /*border: 5px dashed red;*/
+  background-image: url('src/assets/background.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+} 
+
+.banner-titulo {
+  position: absolute;
+  top: 33%;
+  left: 0;
+  width: 390px;
+  height: 70px;
+  line-height: 60px;
+  text-align: center;
+  color: white;
+  font-family: Bodoni Bd BT;
+  background-image: url('src/assets/banner-titulo.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+}
+
+.background-image {
+  width: 390px;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.logo {
+  position: absolute;
+  top: 10%;
+  left: 20%;
+  width: 50%;
+  height: 23%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.textarea {
+  resize: none;
+  background: transparent;
+  border: none;
+  font-family: Book Antiqua;
+  font-size: 15pt;
+  position: absolute;
+  top: 42%;
+  left: 0;
+  width: 390px;
+  height: 25%;
+  padding: 0 30px 0 30px;
+  text-align: justify;
+}
+
+.button {
+  position: absolute;
+  top: 85%;
+  left: 5%;
+  width: 90%;
+  height: 52px;
+  line-height: 50px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-image: url('src/assets/button.png');
+  background-color: transparent;
+  border: none;
+  font-family: Humnst777 BT;
+  font-size: 14pt;
+}
+
+.select-gender {
+  position: absolute;
+  top: 75%;
+  left: 15%;
+  width: 70%;
+  height: 42px;
+  font-family: Book Antiqua;
+  font-size: 14pt;
+  text-align: center;
+  border-radius: 10px;
+  background-color: white;
+  border: solid 2px black;
+}
+
+.option {
+  color: black;
+}
+
+.input-name {
+  position: absolute;
+  top: 68%;
+  left: 15%;
+  width: 70%;
+  height: 42px;
+  font-family: Book Antiqua;
+  font-size: 14pt;
+  text-align: center;
+  border-radius: 10px;
+  background-color: white;
+  border: solid 2px black;
+}
