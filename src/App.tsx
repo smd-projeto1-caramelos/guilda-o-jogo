@@ -7,7 +7,7 @@ import EstradaDosCaes from './pages/EstradaDosCaes';
 import BibliotecaEncantada from './pages/BibliotecaEncantada';
 import PalacioDasArtes from './pages/PalacioDasArtes';
 import RefeitorioMagico from './pages/RefeitorioMagico';
-import Configuracoes from './pages/Configuracoes';
+import CampoOrquideas from './pages/CampoOrquideas';
 
 function App() {
   const [name, setName] = useState('');
@@ -24,16 +24,6 @@ function App() {
             <Introducao 
               setName={ setName }
               setGender={ setGender }/>
-          } 
-        />
-        
-        <Route 
-          path="/configuracoes" 
-          element={
-            <Configuracoes 
-              name={ name } 
-              gender={ gender }
-            /> 
           } 
         />
 
@@ -81,6 +71,16 @@ function App() {
           path="/refeitorio"
           element={
             <RefeitorioMagico 
+              result={ result }
+              setResult={ setResult }
+            />
+          }
+        />
+
+        <Route
+          path="/campo"
+          element={
+            <CampoOrquideas 
               result={ result }
               setResult={ setResult }
             />
