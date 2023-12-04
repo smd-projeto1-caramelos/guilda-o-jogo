@@ -9,6 +9,7 @@ import Configuracoes from './pages/Configuracoes';
 function App() {
   const [name, setName] = useState('');
   const [gender, setGender] = useState('');
+  const [result, setResult] = useState({ "barbaro": 0, "guerreiro": 0, "bardo": 0, "sabio": 0});
 
   return (
   <>
@@ -36,7 +37,9 @@ function App() {
         <Route
           path="/acude"
           element={
-            <AcudeEncantado />
+            <AcudeEncantado 
+              result={ result }
+              setResult={ setResult }/>
           }
         />
 

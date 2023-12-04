@@ -7,7 +7,7 @@ import { getById } from "../database/Database";
 
 import { useNavigate } from 'react-router-dom';
 
-function AcudeEncantado() {
+function AcudeEncantado({ result, setResult}: any) {
   // navegacao
   const navigate = useNavigate();
   const nav = () => { navigate("/estrada"); };
@@ -17,9 +17,15 @@ function AcudeEncantado() {
   const selectOption2 = () => { selectOption(2) }
   const selectOption3 = () => { selectOption(3) }
   const selectOption4 = () => { selectOption(4) }
+  
   const selectOption = (opt: number) => {
     // logica de pontuacao
-
+    if (opt == 1) { result.barbaro = result.barbaro + 1; setResult(result); }
+    if (opt == 2) { result.guerreiro = result.guerreiro + 1; setResult(result); }
+    if (opt == 3) { result.bardo = result.bardo + 1; setResult(result); }
+    if (opt == 4) { result.sabio = result.sabio + 1; setResult(result); }
+    
+    // navegacao
     nav();
   }
 

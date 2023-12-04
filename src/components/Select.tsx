@@ -7,7 +7,7 @@ function Select({ options, placeholder, onchange }: any) {
   return(
     <>
       <select className="select-gender" onChange={ e => onchange(e.target.value) }>
-        <option className="option" disabled selected value="">{ placeholder }</option>
+        <option className="option" disabled selected defaultValue="">{ placeholder }</option>
         { createOptions }
       </select>
     </>
