@@ -3,6 +3,7 @@ import { useState } from 'react';
 
 import Introducao from './pages/Introducao';
 import AcudeEncantado from './pages/AcudeEncantado';
+import EstradaDosCaes from './pages/EstradaDosCaes';
 import Configuracoes from './pages/Configuracoes';
 
 function App() {
@@ -36,6 +37,13 @@ function App() {
           path="/acude"
           element={
             <AcudeEncantado />
+          }
+        />
+
+        <Route
+          path="/estrada"
+          element={
+            <EstradaDosCaes />
           }
         />
         

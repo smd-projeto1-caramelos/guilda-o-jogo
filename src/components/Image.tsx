@@ -1,7 +1,7 @@
-function Image({ url }: any) {
+function Image({ url, className }: any) {
   return(
     <>
-      <img className="background-image" src={ url } />
+      <img className={ className } src={ url } />
     </>
   );
 }
