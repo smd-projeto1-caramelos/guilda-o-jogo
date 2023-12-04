@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { useState } from 'react';
 
 import Introducao from './pages/Introducao';
+import AcudeEncantado from './pages/AcudeEncantado';
 import Configuracoes from './pages/Configuracoes';
 
 function App() {
@@ -29,6 +30,13 @@ function App() {
               gender={ gender }
             /> 
           } 
+        />
+
+        <Route
+          path="/acude"
+          element={
+            <AcudeEncantado />
+          }
         />
         
         <Route 

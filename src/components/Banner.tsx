@@ -1,7 +1,7 @@
-function Banner({ text }: any) {
+function Banner({ text, className }: any) {
   return(
     <>
-      <h1 className="banner-titulo"><i>{ text }</i></h1>
+      <h1 className={ className }><i>{ text }</i></h1>
     </>
   );
 }

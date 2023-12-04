@@ -1,7 +1,7 @@
-function TextBox({ text }: any) {
+function TextBox({ text, className }: any) {
   return(
     <>
-      <textarea className="textarea" value={ text } readOnly></textarea>
+      <textarea className={ className } value={ text } readOnly></textarea>
     </>
   );
 }

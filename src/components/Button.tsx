@@ -1,13 +1,7 @@
-import { useNavigate } from 'react-router-dom';
-
-function Button({ text, url }: any) {
-  const navigate = useNavigate();
-
-  const nav = () => { navigate(url); };
-
+function Button({ text, onclick, className }: any) {
   return(
     <>
-      <button type="submit" className="button" onClick={ nav }>{ text }</button>
+      <button type="submit" className={ className } onClick={ onclick }>{ text }</button>
     </>
   );
 }
