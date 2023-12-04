@@ -3,6 +3,7 @@ import styled from 'styled-components';
 export const Botao = styled.button`
   background-image: url('src/assets/background-botao.svg');
   background-repeat: no-repeat, repeat;
+  background-color: #ffffff00;
   background-size: 100%;
   font-size: 16px;
   border-radius: 5px;

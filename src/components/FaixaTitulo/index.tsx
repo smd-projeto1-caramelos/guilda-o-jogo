@@ -3,7 +3,7 @@ function FaixaTitulo() {
     return(
         <>
             <Banner>
-                <BannerTitulo></BannerTitulo>
+                <BannerTitulo>Iniciar</BannerTitulo>
             </Banner>
         </>
     );

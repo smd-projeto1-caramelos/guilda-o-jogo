@@ -11,6 +11,7 @@ export const Banner = styled.div`
     background-image: url('src/assets/faixa.svg');
     align-items: center;
     background-repeat: no-repeat;
+    background-color: #ffffff00;
 `
 export const BannerTitulo = styled.h2`
     color: white;

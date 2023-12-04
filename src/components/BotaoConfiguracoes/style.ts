@@ -5,6 +5,7 @@ export const BotaoConfig = styled.button`
     background-repeat: no-repeat;
     background-size: 100%;
     padding: 1rem;
+    background-color: #ffffff00;
 
 `
 export const Container = styled.div`
