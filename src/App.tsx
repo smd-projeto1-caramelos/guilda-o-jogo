@@ -1,20 +1,26 @@
-import Message from './Message';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+
 import { getById, listAll }  from './database/Database';
+
+import Message from './Message';
 import BotaoConfiguracoes from './components/BotaoConfiguracoes';
 import BotaoInfo from './components/BotaoInfo';
 import CaixaInput from './components/InputNome';
 import CaixaSelect from './components/InputSelect';
+import FaixaTitulo from './components/FaixaTitulo';
+import Introducao from './pages/Introducao';
+import Configuracoes from './pages/Configuracoes';
+
 function App() {
   return (
   <>
-    <div><Message></Message></div>
-    <div><p>{getById(0).data[0].data}</p></div>
-    <BotaoConfiguracoes />
-    <BotaoInfo />
-    <CaixaInput />
-    <CaixaSelect />
-    
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route index element={<Introducao />} />
+        <Route path="/configuracoes" element={<Configuracoes />} />
+      </Routes>
+    </BrowserRouter>
+  </>
   );
 }
 
