@@ -19,10 +19,10 @@ function EstradaDosCaes({ result, setResult}: any) {
   const selectOption4 = () => { selectOption(4) }
   const selectOption = (opt: number) => {
     // logica de pontuacao
-    if (opt == 2) { result.barbaro = result.barbaro + 1; setResult(result); }
-    if (opt == 3) { result.guerreiro = result.guerreiro + 1; setResult(result); }
-    if (opt == 4) { result.bardo = result.bardo + 1; setResult(result); }
-    if (opt == 1) { result.sabio = result.sabio + 1; setResult(result); }
+    if (opt == 1) { result.guerreiro = result.guerreiro + 1; setResult(result); }
+    if (opt == 2) { result.bardo = result.bardo + 1; setResult(result); }
+    if (opt == 3) { result.sabio = result.sabio + 1; setResult(result); }
+    if (opt == 4) { result.barbaro = result.barbaro + 1; setResult(result); }
     
     // navegacao
     nav();

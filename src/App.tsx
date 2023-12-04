@@ -4,6 +4,7 @@ import { useState } from 'react';
 import Introducao from './pages/Introducao';
 import AcudeEncantado from './pages/AcudeEncantado';
 import EstradaDosCaes from './pages/EstradaDosCaes';
+import BibliotecaEncantada from './pages/BibliotecaEncantada';
 import Configuracoes from './pages/Configuracoes';
 
 function App() {
@@ -39,14 +40,28 @@ function App() {
           element={
             <AcudeEncantado 
               result={ result }
-              setResult={ setResult }/>
+              setResult={ setResult }
+            />
           }
         />
 
         <Route
           path="/estrada"
           element={
-            <EstradaDosCaes />
+            <EstradaDosCaes 
+              result={ result }
+              setResult={ setResult }
+            />
+          }
+        />
+
+        <Route
+          path="/biblioteca"
+          element={
+            <BibliotecaEncantada 
+              result={ result }
+              setResult={ setResult }
+            />
           }
         />
         

@@ -150,41 +150,37 @@ body {
   background-color: transparent;
   border: none;
   font-family: Humnst777 BT;
+  font-size: 14pt;
 }
 
 .button-introducao {
   position: absolute;
   top: 85%;
   left: 5%;
-  font-size: 14pt;
 }
 
 .button-escolha-um {
   position: absolute;
   top: 63%;
   left: 5%;
-  font-size: 9pt;
 }
 
 .button-escolha-dois {
   position: absolute;
   top: 70%;
   left: 5%;
-  font-size: 9pt;
 }
 
 .button-escolha-tres {
   position: absolute;
   top: 77%;
   left: 5%;
-  font-size: 9pt;
 }
 
 .button-escolha-quatro {
   position: absolute;
   top: 84%;
   left: 5%;
-  font-size: 9pt;
 }
 
 .select-gender {

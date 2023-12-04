@@ -20,10 +20,10 @@ function AcudeEncantado({ result, setResult}: any) {
   
   const selectOption = (opt: number) => {
     // logica de pontuacao
-    if (opt == 1) { result.barbaro = result.barbaro + 1; setResult(result); }
-    if (opt == 2) { result.guerreiro = result.guerreiro + 1; setResult(result); }
-    if (opt == 3) { result.bardo = result.bardo + 1; setResult(result); }
-    if (opt == 4) { result.sabio = result.sabio + 1; setResult(result); }
+    if (opt == 1) { result.guerreiro = result.guerreiro + 1; setResult(result); }
+    if (opt == 2) { result.bardo = result.bardo + 1; setResult(result); }
+    if (opt == 3) { result.sabio = result.sabio + 1; setResult(result); }
+    if (opt == 4) { result.barbaro = result.barbaro + 1; setResult(result); }
     
     // navegacao
     nav();

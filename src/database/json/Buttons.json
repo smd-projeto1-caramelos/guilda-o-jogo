@@ -1,13 +1,17 @@
 {
   "content": [
     "Iniciar",
-    "Revida com um golpe incisivo a presença",
-    "Tenta conversar com a presença para identificá-la",
-    "Ignora a presença e segue a viagem",
-    "Pula do barco e volta para a superfície",
-    "Enganá-los com um canto",
-    "Usar um feitiço para paralisá-los",
-    "Dar meia volta e procurar outra rota",
-    "Enfrentar os cães fisicamente"
+    "Revida com um golpe",
+    "Busca identificar a presença",
+    "Não demonstra sentimentos",
+    "Pula do barco e continua à nado",
+    "Lutar contra todos",
+    "Distraí-los de alguma forma",
+    "Esperar eles dormirem",
+    "Voltar e procurar outra rota",
+    "Traduz o ritual só para ajudar",
+    "Traduz por uma recompensa",
+    "Traduz caso seja vencido por eles",
+    "Finge que não sabe a tradução"
   ]
 }
