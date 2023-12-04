@@ -6,6 +6,7 @@ import AcudeEncantado from './pages/AcudeEncantado';
 import EstradaDosCaes from './pages/EstradaDosCaes';
 import BibliotecaEncantada from './pages/BibliotecaEncantada';
 import PalacioDasArtes from './pages/PalacioDasArtes';
+import RefeitorioMagico from './pages/RefeitorioMagico';
 import Configuracoes from './pages/Configuracoes';
 
 function App() {
@@ -70,6 +71,16 @@ function App() {
           path="/palacio"
           element={
             <PalacioDasArtes 
+              result={ result }
+              setResult={ setResult }
+            />
+          }
+        />
+
+        <Route
+          path="/refeitorio"
+          element={
+            <RefeitorioMagico 
               result={ result }
               setResult={ setResult }
             />
