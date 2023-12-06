@@ -8,7 +8,7 @@
 @font-face {
   font-family: 'Bodoni Bd BT';
   src: url('./fonts/BodoniBT-Bold.woff2') format('woff2'),
-      url('s./fonts/BodoniBT-Bold.woff') format('woff');
+      url('./fonts/BodoniBT-Bold.woff') format('woff');
   font-weight: bold;
   font-style: normal;
   font-display: swap;
@@ -46,7 +46,7 @@ body {
   background-color: black;
   height: 100%;
   /*border: 5px dashed red;*/
-  background-image: url('./assets/background.png');
+  background-image: url('./img/background.png');
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center;
@@ -62,7 +62,7 @@ body {
   text-align: center;
   color: white;
   font-family: Bodoni Bd BT;
-  background-image: url('./assets/banner-titulo.png');
+  background-image: url('./img/banner-titulo.png');
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center;
@@ -79,7 +79,7 @@ body {
   text-align: center;
   color: white;
   font-family: Bodoni Bd BT;
-  background-image: url('./assets/banner-titulo.png');
+  background-image: url('./img/banner-titulo.png');
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center;
@@ -146,7 +146,7 @@ body {
   line-height: 50px;
   background-repeat: no-repeat;
   background-size: 100%;
-  background-image: url('./assets/button.png');
+  background-image: url('./img/button.png');
   background-color: transparent;
   border: none;
   font-family: Humnst777 BT;
