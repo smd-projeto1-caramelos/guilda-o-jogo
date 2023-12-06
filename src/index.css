@@ -216,59 +216,59 @@ body {
 }
 
 .progressao-um {
-  background-image: ('./img/progressao-1.png');
+  background-image: url('./img/progressao-1.png');
 }
 
 .progressao-dois {
-  background-image: ('./img/progressao-2.png');
+  background-image: url('./img/progressao-2.png');
 }
 
 .progressao-tres {
-  background-image: ('./img/progressao-3.png');
+  background-image: url('./img/progressao-3.png');
 }
 
 .progressao-quatro {
-  background-image: ('./img/progressao-4.png');
+  background-image: url('./img/progressao-4.png');
 }
 
 .progressao-cinco {
-  background-image: ('./img/progressao-5.png');
+  background-image: url('./img/progressao-5.png');
 }
 
 .progressao-seis {
-  background-image: ('./img/progressao-6.png');
+  background-image: url('./img/progressao-6.png');
 }
 
 .progressao-sete {
-  background-image: ('./img/progressao-7.png');
+  background-image: url('./img/progressao-7.png');
 }
 
 .progressao-oito {
-  background-image: ('./img/progressao-8.png');
+  background-image: url('./img/progressao-8.png');
 }
 
 .acude-encantado {
-  background-image: ('./img/acude-encantado.png');
+  background-image: url('./img/acude-encantado.png');
 }
 
 .biblioteca-encantada {
-  background-image: ('./img/biblioteca-encantada.png');
+  background-image: url('./img/biblioteca-encantada.png');
 }
 
 .campo-orquideas {
-  background-image: ('./img/campo-orquideas.png');
+  background-image: url('./img/campo-orquideas.png');
 }
 
 .estrada-caes {
-  background-image: ('./img/estrada-caes.png');
+  background-image: url('./img/estrada-caes.png');
 }
 
 .refeitorio-magico {
-  background-image: ('./img/refeitorio-magico.png');
+  background-image: url('./img/refeitorio-magico.png');
 }
 
 .guilda-logo {
-  background-image: ('./img/guilda-logo.png');
+  background-image: url('./img/guilda-logo.png');
 }
 
 
