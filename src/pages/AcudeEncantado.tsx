@@ -31,8 +31,8 @@ function AcudeEncantado({ result, setResult}: any) {
 
   return(
     <>
-      <Image url="src/assets/progressao-1.png" className="background-image background-image-progressao" />
-      <Image url="src/assets/acude-encantado.png" className="background-image background-image-cenario" />
+      <Image url="./assets/progressao-1.png" className="background-image background-image-progressao" />
+      <Image url="./assets/acude-encantado.png" className="background-image background-image-cenario" />
       <Banner text="AÇUDE ENCANTADO" className="banner-cenario" />
       <TextBox text={ getById("text", 1) } className="textarea textarea-cenario" />
       <Button text={ getById("buttons", 1) } onclick={ selectOption1 } className="button button-escolha-um" />
