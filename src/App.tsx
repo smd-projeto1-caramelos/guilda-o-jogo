@@ -10,8 +10,8 @@ import RefeitorioMagico from './pages/RefeitorioMagico';
 import CampoOrquideas from './pages/CampoOrquideas';
 
 function App() {
-  const [name, setName] = useState('');
-  const [gender, setGender] = useState('');
+  const [setName] = useState('');
+  const [setGender] = useState('');
   const [result, setResult] = useState({ "barbaro": 0, "guerreiro": 0, "bardo": 0, "sabio": 0});
 
   return (
