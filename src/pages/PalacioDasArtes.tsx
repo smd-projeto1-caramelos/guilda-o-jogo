@@ -30,8 +30,8 @@ function PalacioDasArtes({ result, setResult}: any) {
 
   return(
     <>
-      <Image url="./assets/progressao-4.png" className="background-image background-image-progressao" />
-      <Image url="./assets/palacio-artes.png" className="background-image background-image-cenario" />
+      <Image url="./img/progressao-4.png" className="background-image background-image-progressao" />
+      <Image url="./img/palacio-artes.png" className="background-image background-image-cenario" />
       <Banner text="PALÁCIO DAS ARTES DO ICA" className="banner-cenario" />
       <TextBox text={ getById("text", 4) } className="textarea textarea-cenario" />
       <Button text={ getById("buttons", 13) } onclick={ selectOption1 } className="button button-escolha-um" />
