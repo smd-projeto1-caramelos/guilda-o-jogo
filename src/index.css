@@ -214,3 +214,61 @@ body {
   background-color: white;
   border: solid 2px black;
 }
+
+.progressao-um {
+  background-image: ('./img/progressao-1.png');
+}
+
+.progressao-dois {
+  background-image: ('./img/progressao-2.png');
+}
+
+.progressao-tres {
+  background-image: ('./img/progressao-3.png');
+}
+
+.progressao-quatro {
+  background-image: ('./img/progressao-4.png');
+}
+
+.progressao-cinco {
+  background-image: ('./img/progressao-5.png');
+}
+
+.progressao-seis {
+  background-image: ('./img/progressao-6.png');
+}
+
+.progressao-sete {
+  background-image: ('./img/progressao-7.png');
+}
+
+.progressao-oito {
+  background-image: ('./img/progressao-8.png');
+}
+
+.acude-encantado {
+  background-image: ('./img/acude-encantado.png');
+}
+
+.biblioteca-encantada {
+  background-image: ('./img/biblioteca-encantada.png');
+}
+
+.campo-orquideas {
+  background-image: ('./img/campo-orquideas.png');
+}
+
+.estrada-caes {
+  background-image: ('./img/estrada-caes.png');
+}
+
+.refeitorio-magico {
+  background-image: ('./img/refeitorio-magico.png');
+}
+
+.guilda-logo {
+  background-image: ('./img/guilda-logo.png');
+}
+
+

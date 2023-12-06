@@ -30,8 +30,8 @@ function BibliotecaEncantada({ result, setResult}: any) {
 
   return(
     <>
-      <Image url="./img/progressao-3.png" className="background-image background-image-progressao" />
-      <Image url="./img/biblioteca-encantada.png" className="background-image background-image-cenario" />
+      <Image className="background-image background-image-progressao progressao-tres" />
+      <Image className="background-image background-image-cenario biblioteca-encantada" />
       <Banner text="BIBLIOTECA ENCANTADA" className="banner-cenario" />
       <TextBox text={ getById("text", 3) } className="textarea textarea-cenario" />
       <Button text={ getById("buttons", 9) } onclick={ selectOption1 } className="button button-escolha-um" />

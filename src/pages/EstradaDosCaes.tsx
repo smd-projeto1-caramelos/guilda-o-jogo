@@ -30,8 +30,8 @@ function EstradaDosCaes({ result, setResult}: any) {
 
   return(
     <>
-      <Image url="./img/progressao-2.png" className="background-image background-image-progressao" />
-      <Image url="./img/estrada-caes.png" className="background-image background-image-cenario" />
+      <Image className="background-image background-image-progressao progressao-dois" />
+      <Image className="background-image background-image-cenario estrada-caes" />
       <Banner text="ESTRADA DOS CÃES" className="banner-cenario" />
       <TextBox text={ getById("text", 2) } className="textarea textarea-cenario" />
       <Button text={ getById("buttons", 5) } onclick={ selectOption1 } className="button button-escolha-um" />

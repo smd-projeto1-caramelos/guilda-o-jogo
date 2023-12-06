@@ -16,7 +16,7 @@ function Introducao({ setName, setGender }: any) {
 
   return(
     <>
-      <Logo />
+      <Logo className="logo guilda-logo" />
       <Banner text="Introdução" className="banner banner-introducao" />
       <TextBox text={ getById("text", 0) } className="textarea textarea-introducao" />
       <Input placeholder={ "Seu Nome" } onchange={ setName } />

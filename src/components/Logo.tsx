@@ -1,7 +1,7 @@
-function Logo() {
+function Logo({ className }: any) {
   return(
     <>
-      <img className="logo" src="./img/guilda-logo.png" />
+      <img className={ className } />
     </>
   );
 }
